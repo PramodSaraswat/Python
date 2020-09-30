@@ -7,7 +7,7 @@ def main():
     ans = a[0]
     for i in range(1,len(a)):
         ans += a[i]
-    print("The CamelCase of converted string is %s"%ans)
+    print(f"The CamelCase of converted string is {ans}")
 
 if __name__ == '__main__':
     main()
